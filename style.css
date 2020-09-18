@@ -1,0 +1,228 @@
+* {
+    font-family: 'Arial', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header{
+    background: #d3ab08;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+.header_block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_block  > ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;   
+}
+.header_img > img {
+    cursor: pointer;
+}
+ul > li > a{
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    margin: 0 10px;
+}
+ul > li > a:hover{
+    color: black;
+}
+.image_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/picbg.jpg) 0 0 no-repeat;
+    background-size: cover;
+    height: calc(100vh - 120px);
+    
+}
+.image_text > h3{
+    margin-top: 0px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.about_services{
+    padding: 50px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vertical_line {
+    width: 2px;
+    height: 40px;
+    margin-left: 1px;
+    margin-right: 4px;
+}
+
+.first{
+    background-color: #000;
+}
+.second{
+    background-color:#ffcc01;
+} 
+.about_services > h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.about_services > h1 > span{
+    color: #ffcc01;
+}
+.options_block{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+.first_block{
+    background: #ffcc01;
+}
+.item{
+    border: 7px solid rgb(231, 216, 216);
+    padding: 10px 10px;
+}
+.item1{
+    padding: 10px 10px;
+}
+.first_h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.first_text {
+    padding: 10px 20px;
+}
+.first_text > img{
+    padding-left: 250px;
+}
+.first_text > a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.first_text > a:hover{
+    color: black;
+}
+.options_text{
+    padding: 0 20px;
+}
+.options_text > img{
+    padding-left: 250px;
+}
+.options_text > a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.options_text > a:hover{
+    color: #ffcc01;
+}
+.options_text > h3{
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.about_pricing{
+    padding: 50px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.about_pricing > h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.about_pricing > h1 > span{
+    color: #ffcc01;
+}
+.pricing_block{
+    background: #ffcc01;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.price_block{
+    border: 0.5px solid white;
+    border-collapse: collapse;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    padding: 20px 15px;
+}
+.cost{
+    border: 0.5px solid white;
+    border-collapse: collapse;
+    margin: 2px;
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+.cost > h3 > span{
+    font-size: 30px;
+    font-weight: 300;
+}
+.cost > button{
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+}
+.cost > button:hover{
+    color: #ffcc01;
+    cursor: pointer;
+}
+.about_footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    background: #ffcc01;
+    
+}
+.footer_images{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    background: black;
+    height: 40px;
+    width: 40px;
+}
+.icons:hover{
+    background-color: #ffcc01;
+    cursor: pointer;
+}
+.about_footer > p{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}

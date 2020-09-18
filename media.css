@@ -1,0 +1,27 @@
+@media screen and (max-width: 1000px){
+    .header_block{
+        flex-wrap: wrap;
+    }
+    .header_block > ul{
+        display: none;
+    }
+    .container{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .options_block{
+        grid: column;
+        grid-template-columns: auto;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .pricing_block{
+        display: flex;
+        flex-direction: column;
+    }
+    .price_list{
+        width: 99%;
+    }
+}
+
